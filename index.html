@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Non Stop Mart</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f7fa;
+    color:#222;
+}
+
+header{
+    background:#0f172a
+    color:white;
+    text-align:center;
+    padding:25px 15px;
+}
+
+header h1{
+    margin:0;
+    font-size:34px;
+}
+
+header p{
+    margin:8px 0 0;
+    font-size:17px;
+    color:#d1d5db;
+}
+
+nav{
+    background:white;
+    text-align:center;
+    padding:15px;
+    box-shadow:0 2px 8px #ddd;
+}
+
+nav a{
+    color:#16a34a
+    text-decoration:none;
+    font-weight:bold;
+    margin:0 15px;
+}
+
+.hero{
+    text-align:center;
+    padding:45px 20px;
+    background:linear-gradient(135deg,#dbeafe,#fef3c7);
+}
+
+.hero h2{
+    font-size:34px;
+    margin:5px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.products{
+    max-width:1100px;
+    margin:auto;
+    padding:35px 20px;
+}
+
+.products h2{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:22px;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 4px 15px #ddd;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 22px #ccc;
+}
+
+.card img{
+    width:100%;
+    height:210px;
+    object-fit:contain;
+    border-radius:12px;
+}
+
+.card h3{
+    font-size:18px;
+    min-height:45px;
+}
+
+.card p{
+    color:#666;
+    min-height:40px;
+}
+
+.price{
+    margin-top:10px;
+    font-size:21px;
+    font-weight:bold;
+}
+
+.old{
+    color:#888;
+    text-decoration:line-through;
+    margin-right:7px;
+}
+
+.new{
+    color:#16a34a;
+}
+
+button{
+    background:#25D366;
+    color:white;
+    border:0;
+    padding:12px 22px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:12px;
+}
+
+button:hover{
+    background:#128C7E;
+}
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🛒 NON STOP MART</h1>
+<p>Everything You Need, All in One Place</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Welcome to Non Stop Mart 🎉</h2>
+<p>Shop your favorite products at great prices.</p>
+</section>
+
+<section class="products" id="products">
+
+<h2>🛍️ Our Products</h2>
+
+<div class="card-container">
+
+<div class="card">
+<img src="hotplate.jpg">
+<h3>🍲 Electric Hot Plate with Cooking Pot</h3>
+<p>Single Burner • Portable • Easy to Use</p>
+<div class="price">
+<span class="old">Rs. 2699</span>
+<span class="new">Rs. 2499</span>
+</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%20Electric%20Hot%20Plate">
+<button>Order Now</button>
+</a>
+</div>
+
+
+<div class="card">
+<img src="kettle.jpg">
+<h3>☕ RAF Electric Kettle 2.0L</h3>
+<p>Stainless Steel • Electric • 3 Years Warranty</p>
+<div class="price">
+<span class="old">Rs. 2499</span>
+<span class="new">Rs. 2299</span>
+</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%20RAF%20Electric%20Kettle%202.0L">
+<button>Order Now</button>
+</a>
+</div>
+
+<div class="card">
+<img src="iron.jpg">
+<h3>👔 RAF Electric Iron</h3>
+<p>Overheat & Fusing Protection • Temperature Adjustment</p>
+<div class="price">
+<span class="old">Rs. 3000</span>
+<span class="new">Rs. 2500</span>
+</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%20RAF%20Electric%20Iron">
+<button>Order Now</button>
+</a>
+</div>
+
+
+<div class="card">
+<img src="hanging.jpg">
+<h3>💡 USB Rechargeable Hanging LED Bulb</h3>
+<p>Warm Light • Decorative • Indoor & Outdoor</p>
+<div class="price">Rs. 799</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%20USB%20Rechargeable%20Hanging%20LED%20Bulb">
+<button>Order Now</button>
+</a>
+</div>
+
+<div class="card">
+<img src="solar.jpg">
+<h3>☀️ 20W Multifunctional Solar Lamp</h3>
+<p>Solar Powered • Portable • Powerful LED Light</p>
+<div class="price">Rs. 1499</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%2020W%20Multifunctional%20Solar%20Lamp">
+<button>Order Now</button>
+</a>
+</div> 
+
+<div class="card">
+<img src="headlamp.jpg">
+<h3>🔦 High Power LED Headlamp</h3>
+<p>Rechargeable • USB Charging • Hands-Free Light</p>
+<div class="price">Rs. 999</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%20High%20Power%20LED%20Headlamp">
+<button>Order Now</button>
+</a>
+</div>
+
+<div class="card">
+<img src="tablelamp.jpg">
+<h3>💡 RGB Crystal Table Lamp</h3>
+<p>Color Changing • Remote Control</p>
+<div class="price">Rs. 1799</div>
+<a href="https://wa.me/923170594369?text=I%20want%20to%20order%20RGB%20Crystal%20Table%20Lamp">
+<button>Order Now</button>
+</a>
+</div>
+
+</div>
+</section>
+
+<footer id="contact">
+📞 WhatsApp: 0317 0594369
+<br><br>
+🛒 For orders & product details, contact us on WhatsApp.
+<br><br>
+© 2026 Non Stop Mart
+</footer>
+
+</body>
+</html>
